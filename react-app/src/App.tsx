@@ -5,6 +5,7 @@ import ListGroup from './components/ListGroup';
 import {IoCalendarClear} from 'react-icons/io5';
 import MyButton from './components/Button/Button';
 import HeartButton from './components/Button/HeartButton';
+import ObjectState from './ObjectState';
 
 function App() {
   const [alertVisible, setAlertVisible] = useState(false);
@@ -30,6 +31,7 @@ function App() {
           console.log('clicked');
         }}
       ></HeartButton>
+      <ObjectState />
     </div>
   );
 }
